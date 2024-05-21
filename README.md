@@ -5,7 +5,7 @@
 ## Установка
 
 1. Клонируйте этот репозиторий:
-git clone git@github.com:AleexandrNovoseletsky/api_final_yatube.git
+git clone git@github.com:AleexandrNovoseletsky/GameBot.git
 
 
 2. Установка зависимостей:
