@@ -69,7 +69,7 @@ def get_win_text(chances: list, casket: int) -> AnswerText:
             answer.luck = settings.HUMAN_LUCK_TEXT
 
         # Если приз максимальный из возможных.
-        if prize == 100:
+        if prize == settings.MAX_PRIZE:
             if bot_game is True:
                 answer.super_prize = settings.ROBOT_SUPER_PRIZE_TEXT
             else:
